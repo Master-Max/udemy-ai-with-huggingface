@@ -67,6 +67,43 @@ Multi Level Attention and Feed Forward
 
 ________
 
+How Transformers work
+
+Encoder - text to representation
+Decoder - representation to output
+
+Tokenization - Encoder takes text and tokenizes it into layers
+    - embeded into vectors using embedding layers
+
+Embedding   EMBEDDING!
+    - way to represent words, sentences or other types of data as Numberical Vectors
+    - Vectors capture the meaning, relationships and sturcture of the data
+    - Very important
+    - preserves meaning with multi dimentional vectors
+    - also uses positional context ( I think position in sentence is a layer that the token will have a vector on )
+
+Multi-Head Attention (or Self Attention)
+    - Each token embedding is projected into three vectors:
+        * Query (Q) what is token looking for?
+        * Key (K) features of token that other tokens can reference
+        * Value (V) imformation that the token contributes
+
+    The more meaningful the embeddings, the better the attention mechanism
+
+Multi-Head Attention works in parallel
+    Each head focuses on different relationships in the sentence
+    one might forus on grammer another might focus on the meaning
+
+FFNN - Feed Forward Neural Network
+    Data is normalized and sent to FFNN, each token is independently processed
+    Adds abstractions?????
+
+Decoder - takes input from encoder and perform action of predicting the next work in the sequence
+
+All of this is based on the Attention is All You Need paper
+
+
+
 
 
 
