@@ -102,8 +102,39 @@ Decoder - takes input from encoder and perform action of predicting the next wor
 
 All of this is based on the Attention is All You Need paper
 
+________
 
+NLP momentum with Transformers
 
+NLP - subfield of AI that focuses on enabling machines to understand and interpret human language in a meaninful way
+
+Earlier NLP Models
+    1. Recurrent Neural Networks (RNNs)
+    2. Word2Vec
+    3. Long-short Term memory (LSTM)
+    4. n-gram
+
+Pre Transformers
+
+NLPs struggled with long range dependencies and context. Lost context of subject in long sentences.
+
+Transformers are very good at text translaion. Used in wide range of NLP tasks
+
+LLMs
+
+GPT-4 and Claude are gneral purpose language models that can be applied to various NLP taks with minimal fine-tuning
+
+________
+
+End of section 1
+
+Quiz Qs
+
+1. Supervised learning (Leaning from labeled data to make predictions or classifications)
+
+2. Multi-head attention (Allows the model to learn different representations or contexts from the same input in parallel)
+
+3. NPL task that can be handled by Transformer-based models (Machine translation)
 
 
 
