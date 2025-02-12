@@ -1,0 +1,72 @@
+Transformers
+
+Encoder (left block)
+    converts words into tokens (vectors)
+    adds info
+    gets data from the user
+    add attention - each word pays attention to the other words in the sentence
+
+Decoder (right block)
+    generates output tokens
+    only looks at previous words
+
+________
+
+Tokens add data in the Encoder phase
+[CLS] - start of sentence
+[SEP] = end of sentence
+
+________
+
+Uses google colab
+
+> from transformers import AutoTokenizer
+
+CLS and SEP change depending on model being used
+
+________
+
+Some models need only encoder or only Decoder
+
+Encoder Only:
+    - Text Classifiication (identifying spam or not spam)
+Named Entity Recognition (NER):
+    - identifying John as a person and London as a location
+Sentiment Analysis:
+    - Is a review of a movie positive or negative
+Text Similarity
+    - Compare 2 sentences to see how similar they AutoTokenizer
+
+
+Example Full Models (That I can probably find on Hugging Face)
+    - ALBERT
+    - BERT
+    - DistilBERT
+    - ELECTRA
+    - RoBERTa
+
+________
+
+Decoder Only:
+
+(does actually need an encoder to make a token) ???
+
+Text Generation
+Text Summarization
+Speech Recognition
+
+Full Models
+    - CTRL
+    - GPT, GPT 1,2,3,4,4o
+    - Claude, Gemini
+
+
+________
+
+Multi Level Attention and Feed Forward
+
+________
+
+
+
+
