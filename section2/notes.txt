@@ -1,0 +1,36 @@
+Libraries to work with NLP
+
+1. NLTK
+2. SpaCy
+3. Tensorflow ( google )
+4. PyTorch ( meta )
+5. HuggingFace
+
+Using HuggingFace
+
+- HuggingFace is company and open-source platorm (yay)
+
+- Provides
+    > Pre-Trained AI models ( NLP, vision, aduio, ect )
+    > APIs and tools to download and fine-tune
+    > Model Hub with thousands of models
+    > Colaborative community
+
+- All done with the Transformers library of HuggingFace
+
+HuggingFace Transformer Library is NOT the Transformer Architecture that makes up how Attnetion Based LLMs work
+
+Transformers Library - Python
+- Simplifies working with Transformer models
+- Download pretrained model, and fine tune them
+- Use models for text classification, translation, summarization, q/a, and more
+
+________
+
+HuggingFace Exploration
+
+Models
+Spaces
+Datasets
+
+Inference API - little built in thing on hugging face to try models in a demo mode
